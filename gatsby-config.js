@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "http://erixusedbikeparts.local/graphql",
+        url: "https://eric.ibec.me/graphql",
       },
     },
     "gatsby-plugin-sass",
