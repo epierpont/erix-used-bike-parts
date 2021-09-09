@@ -4,6 +4,12 @@ module.exports = {
     title: "Erix Used Bikes Parts",
   },
   plugins: [
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: `https://eric.ibec.me/graphql`,
+      },
+    },
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
